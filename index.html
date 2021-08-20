@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/019397b3eb.js" crossorigin="anonymous"></script>
+  <link rel="./stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  }
+
+  <title>resturant</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover  {
+      color: blue;
+      background-color: #ffffff;
+    }
+
+    .active {
+      color: #ffffff;
+      background-color: blue;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <script> alert("make by zain")</script>
+  <nav>
+    <i class="fa fa-bars"> </i>
+    <label class="logo"> PIZZA BAR </label>
+    <ul>
+      <li><a href="home.html" class="active"> home</a></li>
+
+      <li><a href="about.html" class="active"> about </a></li>
+      <!-- <li><a href="f"  class="active"  > services </a></li> -->
+      <li><a href="03058099035" class="active"> contact us </a></li>
+      <li><a href="feedback.html" class="active"> feedback </a></li>
+      <li><a href="help.html" class="active"> helps </a></li>
+      <li> <input class="activ" type="search" name="search" placeholder="search bar"> <i class="fa fa-search">
+        </i></li>
+
+    </ul>
+  </nav>
+  <div class="t">
+    <img src="./30173-welcome-screen.gif" alt="" width="400px" height="auto">
+
+
+  </div>
+  <hr>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="./images.jpg" style="width:700px" height="300px">
+      <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="./images (2).jpg" style="width:700px" height="300px">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="./images (1).jpg" style="width:700px" height="300px">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="./images (3).jpg" style="width:700px" height="300px">
+      <div class="text">Caption 4</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img src="./images (4).jpg" style="width:700px" height="300px">
+      <div class="text">Caption five</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img src="./IMAGE (4).jpg" style="width:700px" height="300px ">
+      <div class="text">Caption six </div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img src="./image.5.jpg" style="width:700px" height="300px">
+      <div class="text">Caption seven</div>
+    </div>
+
+
+    <a class="prev" autocapitalize="plusSlides(-1)">&#10094;</a>
+    <a class="next" autocapitalize="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" autocapitalize="currentSlide(3)"></span>
+    <span class="dot" autocapitalize="currentSlide(4)"></span>
+    <span class="dot" autocapitalize="currentSlidee(1)"></span>
+    <span class="dot" autocapitalize="currentSlide(2)"></span>
+    <span class="dot" autocapitalize="currentSlid(5)"></span>
+    <span class="dot" autocapitalize="currentSlide(6)"></span>
+    <span class="dot" autocapitalize="currentSlide(7)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+  </script>
+
+
+
+
+  <div class="swiper-slide slide swiper-slide-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3"
+    _mstaria-label="15496" style="width: 652px; margin-right: 30px;">
+    <div class="content">
+      <span class="ot" _>Our special dish</span>
+      <h3 class="ot" _>pizza</h3>
+      <p class="ot">it is very spicy.available in all tastes</p>
+      <a href="#order" class="btn">order now in just <s>$2399</s> $1899</a>
+
+    </div>
+    <div class="image">
+      <img src="./download.jpg" alt="" width="1000px" height="500px">
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="swiper-slide slide swiper-slide-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3"
+    _mstaria-label="15496" style="width: 652px; margin-right: 30px;">
+    <div class="content">
+      <span class="ot">Our special dish</span>
+      <h3 class="ot">pizza</h3>
+      <p class="ot">it is very spicy.available in all tastes</p>
+      <a href="#order" class="btn" _msthash="1473069" _msttexthash="120666">order now in just <s>$1999</s>
+        $1699</a>
+    </div>
+    <div class="image">
+      <img src="./download (1).jpg" alt="" width="1000px" height="500px">
+    </div>
+  </div>
+  <br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="v">
+    <img src="./22795-pizza-slice.gif" alt="" width="300px" height="auto">
+    <img src="19705-chef.gif" width="300px" height="auto">
+  </div>
+  <!-- <br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+  <hr>
+  <h1 class="ot"> Famous dish </h1>
+  <div>
+    <h3 class="ot"> burger </h3>
+    <p class="ot"> double-beaf-burger and chicken-beaf-burger
+      <a href="#order" class="tn"> order now in just <s>$1399</s> $799 </a> <br>
+      <img src="./Double-Beef-Burger-and-Chicken-Burger-with-Cheese-.jpg" alt="" width="500px" height="250px">
+      <img src="./images.jpg" alt="" width="500px" height="250px">
+      <br>
+
+      <br>
+      <a href="#order" class="tn"> order now in just <s>$999</s> $699 </a><br>
+      <img src="./download (2).jpg" alt=" " width="500px" height="250px">
+      <img src="./download (3).jpg" alt="" width="500px" height="250px">
+  </div>
+  <div class="bb">
+    <img src="./43018-thank-you-lottiefiles.gif " alt="thnaks for visit" width="400" height="auto">
+  </div>
+  <div class="alol">
+    <i class="fa fa-facebook-official"> <i class="fab fa-twitter"></i> <i class="fas fa-shopping-cart"></i> <i
+        class="fab fa-amazon-pay"></i> <i class="fa fa-bank"></i> </i> <i class="fa fa-whatsapp"></i>
+  </div>
+  <br><br><br>
+  
+
+</html>

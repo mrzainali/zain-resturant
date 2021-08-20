@@ -1,0 +1,165 @@
+
+
+
+body{
+    /* background-image: url(https://data.photofunky.net/output/image/c/9/4/b/c94be7/photofunky.gif); */
+    background-image: fixed;
+    font-family: montseerat;
+}
+
+.fa-bars{
+
+    font-size: 20px;
+}
+.v{
+display: flex;
+justify-content: center;
+}
+
+.alol{
+display: flex;
+justify-content: center;
+font-size: 30px;
+}
+.bb{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+
+background-color: #0082e6;
+height: 80px;
+width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0px 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+margin-right: 20px;
+
+}
+
+p{
+    color: chartreuse;
+}
+.gt{
+color: red;
+
+
+}
+
+.active{
+    background-color: blue;
+    color: #ffffff;
+}
+.active:hover{
+    background-color: #ffffff;
+    color: blue;
+}
+
+nav ul li{
+    display: inline-block;
+line-height: 80px;
+    margin: 0px 5px;
+}
+
+.activ{
+  background-color: black;
+color: #ffffff;
+}
+
+.activ:hover{
+
+background-color:#ffffff;
+transition: 1s;
+color: blue;
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 17px;
+text-transform: uppercase;
+padding: 7px 13px;
+border-radius: 5px;
+}
+/* .ctive, .acti,.acive,a,:hover{
+
+    background-color: #1b9bff;
+    transition: 4s; */
+
+p,span,h3,h1{
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.v{
+    color: beige;
+}
+
+
+.active:hover{
+    color: blue;
+background-color: #ffffff;
+transition: 1s;
+}
+
+
+.home .home-slider.slide{
+display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem
+}
+
+
+.swiper-slide {
+    font-size: 20px;
+}
+
+.image{
+    
+    width: 100px;
+    height: 50px;
+}
+.btn:hover{
+background-color:lightskyblue;
+}
+.tn:hover{
+    background-color: lightskyblue;
+}
+
+
+
+.t{
+  margin-left: 650px;
+  display: flex ;;
+  justify-content: center;
+}
+
+
+.active, .ctive:hover{
+  background-color: #ffffff;
+transition: 1s;
+color: blue;
+}
+
+
+.ot:hover{
+
+color: blue;
+
+
+
+
+}
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resturant</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+<label class="logo"> PIZZA BAR </label>
+<ul>
+<li><a href="d" class="active" > home</a></li>
+
+<li><a href="f" class="active"> about</a></li>
+<li><a href="f"  class="active"  > services </a></li>
+<li><a href="d" class="active"> contact us </a></li>
+<li><a href="g" class="active"> feedback </a></li>
+<li><a href="m" class="active"> helps </a></li>
+<li> <input class="active"  type="search" name="search" placeholder="search bar"> </li>
+<li><a href="./6225-hand-tapping-on-a-smartphone.gif"></a></li>
+</ul>
+    </nav>
+ <div class="gg">   
+<img src="https://2.bp.blogspot.com/-L2wck38E68I/VMWhmroJY0I/AAAAAAAAQhs/iLKxfQnxmxM/s1600/20-4.gif" alt="welcome" width="1350px" height="400">
+</div>
+    <hr>
+
+    <div class="swiper-slide slide swiper-slide-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3"
+        _mstaria-label="15496" style="width: 652px; margin-right: 30px;">
+        <div class="content">
+            <span _>Our special dish</span>
+            <h3 _>pizza</h3>
+            <p  >it is very spicy.available in all tastes</p>
+            <a href="#order" class="btn">order now in just <s>$2399</s> $1899</a>
+
+        </div>
+        <div class="image">
+            <img src="./download.jpg" alt="" width="1000px" height="500px">
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="swiper-slide slide swiper-slide-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3"
+        _mstaria-label="15496" style="width: 652px; margin-right: 30px;">
+        <div class="content">
+            <span _msthash="1252095" _msttexthash="258752">Our special dish</span>
+            <h3 _msthash="1528488" _msttexthash="65117">pizza</h3>
+            <p _msthash="1474317" _msttexthash="1099878">it is very spicy.available in all tastes</p>
+            <a href="#order" class="btn" _msthash="1473069" _msttexthash="120666">order now in just <s>$1999</s>
+                $1699</a>
+        </div>
+        <div class="image">
+            <img src="./download (1).jpg" alt="" width="1000px" height="500px">
+        </div>
+    </div>
+    <br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <h1> Famous dish </h1>
+    <div>
+        <h3> burger </h3>
+        <p> double-beaf-burger and chicken-beaf-burger
+            <a href="#order" class="tn"> order now in just <s>$1399</s> $799 </a> <br>
+            <img src="./Double-Beef-Burger-and-Chicken-Burger-with-Cheese-.jpg" alt="" width="500px" height="250px">
+            <img src="./images.jpg" alt="" width="500px" height="250px">
+            <br>
+
+            <br>
+            <a href="#order" class="tn"> order now in just <s>$999</s> $699 </a><br>
+            <img src="./download (2).jpg" alt=" " width="500px" height="250px">
+            <img src="./download (3).jpg" alt="" width="500px" height="250px">
+    </div>
+
+<img src="" alt="thnaks for visit" width="1350" height="auto">
+
+
+
+</body>
+
+</html>
