@@ -157,9 +157,18 @@ color: blue;
 color: blue;
 
 
-
-
+}
+@media screen and (max-width: 800px) {
+.nav 
+    width: 100%;
 }
 
-
-
+}
+@media screen and (max-width :800px) {
+    
+    .t{
+        height: auto;
+        width: 30%;
+        left margin :10px ;
+    }
+}
